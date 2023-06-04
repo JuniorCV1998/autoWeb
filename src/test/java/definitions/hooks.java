@@ -9,8 +9,8 @@ public class hooks { // se configura el antes y despues del test
     public static WebDriver driver;
 
     @Before //Configuración
-    public static void setup(){
-        System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+    public static void setUp(){
+        System.setProperty("webdriver.chrome.driver","src/test/resources/drivers/chromedriver.exe");
         //src/test/resources/drivers/chromedriver.exe
         driver = new ChromeDriver(); // abre navegador
         driver.manage().window().maximize(); //maximizamos ventana

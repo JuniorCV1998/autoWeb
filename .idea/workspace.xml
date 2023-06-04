@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f55267d3-94e2-4e39-a730-17e908c45c38" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/menuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/support/util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/definitions/demoDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pageobjects/formularioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/support/runtest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/demoSite.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/demoSite2.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/definitions/hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/definitions/hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/menuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/menuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/support/util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/support/util.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Junior/OneDrive/Documentos/Proyecto Apps/Automatización/autoWeb",
+    "last_opened_file_path": "C:/Users/Junior/OneDrive/Documentos/Proyecto Apps/Automatización/autoWeb/src/test/resources/features",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,10 +58,65 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Junior\OneDrive\Documentos\Proyecto Apps\Automatización\autoWeb\src\test\resources\features" />
       <recent name="C:\Users\Junior\OneDrive\Documentos\Proyecto Apps\Automatización\autoWeb\src\test\resources\drivers" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.runtest">
+    <configuration name="Feature: demoSite" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/demoSite.feature" />
+      <option name="GLUE" value="definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="autoWeb" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: demoSite" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Registrar usuario" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/demoSite.feature" />
+      <option name="GLUE" value="definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="autoWeb" />
+      <option name="NAME_FILTER" value="^Registrar usuario$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Registrar usuario$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Registrar usuario" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="runtest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="autoWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="support.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="support" />
+      <option name="MAIN_CLASS_NAME" value="support.runtest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="autoWeb" />
       <method v="2">
@@ -68,6 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.runtest" />
+        <item itemvalue="Cucumber Java.Feature: demoSite" />
+        <item itemvalue="Cucumber Java.Scenario: Registrar usuario" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,7 +149,7 @@
       <workItem from="1685663577411" duration="2980000" />
       <workItem from="1685666576267" duration="79000" />
       <workItem from="1685666663831" duration="172000" />
-      <workItem from="1685666849735" duration="5972000" />
+      <workItem from="1685666849735" duration="33554000" />
     </task>
     <servers />
   </component>
